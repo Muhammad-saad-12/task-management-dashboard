@@ -18,22 +18,29 @@ A responsive, high-performance task management dashboard built with **React 19**
 
 ## Dashboard Preview
 
-<!-- Add your dashboard screenshots or screen recordings below -->
 <div align="center">
-  <img src="https://placehold.co/1200x675/0b0d14/indigo?text=TaskFlow+Dashboard+Preview+(1200x675)" alt="TaskFlow Dashboard Preview" width="100%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1);" />
-  <p align="center"><em>Main Dashboard: Summary Statistics, Filter Controls, Responsive Tasks Table, and Companion Widgets</em></p>
+  <img src="./screenshots/Full-Dashbaord.png" alt="TaskFlow Full Dashboard Overview" width="100%" style="border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.1);" />
+  <p align="center"><em>Full Dashboard View: Left Sidebar Navigation, Header Search, Summary Statistics, Tasks Table, and Companion Widgets</em></p>
 </div>
 
-<details>
-  <summary><strong>View Additional UI Previews</strong></summary>
-  <br/>
+<br/>
 
-  | Create & Edit Modal | Delete Confirmation |
-  | :---: | :---: |
-  | ![Create Modal](https://placehold.co/600x450/12141e/indigo?text=Create+%2F+Edit+Task+Modal) | ![Delete Confirmation](https://placehold.co/600x450/12141e/rose?text=Delete+Confirmation+Dialog) |
-
-  > **Note**: To showcase your own application screenshots, place image files inside a `/docs/screenshots/` directory and update the markdown image paths above.
-</details>
+<div align="center">
+  <table>
+    <tr>
+      <td width="65%" align="center">
+        <img src="./screenshots/Dashboard.png" alt="Dashboard Workspace & Statistics" width="100%" style="border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.1);" />
+        <br/>
+        <em><strong>Dashboard Workspace & Statistics</strong></em>
+      </td>
+      <td width="35%" align="center">
+        <img src="./screenshots/Tasks.png" alt="Tasks Management Table" width="100%" style="border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.1);" />
+        <br/>
+        <em><strong>Tasks Table & Actions</strong></em>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
@@ -124,6 +131,10 @@ A responsive, high-performance task management dashboard built with **React 19**
 task-manager/
 ├── public/
 │   └── favicon.svg                 # Application favicon
+├── screenshots/                    # Dashboard preview screenshots for documentation
+│   ├── Dashboard.png
+│   ├── Full-Dashbaord.png
+│   └── Tasks.png
 ├── src/
 │   ├── components/
 │   │   ├── dashboard/
